@@ -1,0 +1,2 @@
+import{j as r}from"./jsx-runtime-94f6e698.js";const e=o=>r.jsxs("svg",{viewBox:"0 0 17 16",fill:"none",xmlns:"http://www.w3.org/2000/svg",...o,children:[r.jsx("circle",{cx:6.74,cy:6.74,r:5.99,stroke:"currentColor",strokeWidth:1.5,strokeLinecap:"round"}),r.jsx("path",{stroke:"currentColor",strokeWidth:1.5,strokeLinecap:"round",d:"M12.295 11.234 16 14.94"})]}),t=e;try{SearchIcon.displayName="SearchIcon",SearchIcon.__docgenInfo={description:"",displayName:"SearchIcon",props:{}}}catch{}export{t as S};
+//# sourceMappingURL=SearchIcon-81ddcf82.js.map

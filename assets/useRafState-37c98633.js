@@ -1,2 +1,0 @@
-import{r as n}from"./index-8db94870.js";import{u as s}from"./useEffectOnce-29e89586.js";var f=function(e){var t=n.useRef(e);t.current=e,s(function(){return function(){return t.current()}})};const i=f;var m=function(e){var t=n.useRef(0),r=n.useState(e),a=r[0],u=r[1],c=n.useCallback(function(o){cancelAnimationFrame(t.current),t.current=requestAnimationFrame(function(){u(o)})},[]);return i(function(){cancelAnimationFrame(t.current)}),[a,c]};const S=m;export{S as u};
-//# sourceMappingURL=useRafState-37c98633.js.map

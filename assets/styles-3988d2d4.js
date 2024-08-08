@@ -1,9 +1,14 @@
-import{c as t}from"./styled-components.browser.esm-655d472d.js";const s=t`
+import{c as t}from"./styled-components.browser.esm-655d472d.js";const c=t`
   outline: none;
-  padding: 12px;
+  padding: 0 12px;
   border: 1px solid ${o=>o.theme.colors.divider};
   border-radius: ${o=>o.theme.radius.xxxxs}px;
   color: ${o=>o.theme.colors.textInput.default};
+  caret-color: ${o=>o.theme.colors.textInput.link};
+
+  &::selection {
+    background: ${o=>o.theme.colors.button.hovered};
+  }
 
   &::placeholder {
     color: ${o=>o.theme.colors.textInput.minor};
@@ -28,11 +33,12 @@ import{c as t}from"./styled-components.browser.esm-655d472d.js";const s=t`
   &:disabled {
     color: ${o=>o.theme.colors.buttonInput.disabled};
     border-color: ${o=>o.theme.colors.button.disabled};
+    background-color: transparent;
 
     &:hover,
     &:focus {
       border-color: ${o=>o.theme.colors.button.disabled};
     }
   }
-`;export{s as t};
-//# sourceMappingURL=styles-bb32c2e8.js.map
+`;export{c as t};
+//# sourceMappingURL=styles-3988d2d4.js.map

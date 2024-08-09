@@ -1,4 +1,4 @@
-import{j as e}from"./jsx-runtime-94f6e698.js";import{p as x}from"./styled-components.browser.esm-655d472d.js";import{I as f}from"./IconWarning-75f2a4c4.js";import{T as m}from"./Tooltip-87fdca17.js";import"./index-8db94870.js";import"./_commonjsHelpers-042e6b4d.js";import"./index-8ce4a492.js";const W={title:"PAAS/Tooltip"},g=["top","bottom","left","right"],$=["start","center","end"],j=t=>e.jsx(b,{children:g.map((i,h)=>$.map((s,l)=>e.jsx(m,{position:i,align:s,gap:10,text:l%2===0?e.jsxs("div",{style:{display:"flex",alignItems:"center",gap:4},children:[e.jsx(f,{style:{flex:"none",color:"#EE8152"},width:12,height:12}),e.jsxs("span",{style:{flex:"none"},children:[i," ",s]})]}):`${i} ${s}`,children:v[h][l]},i+s)))}),p=j.bind({}),n=88,r=32,b=x.div`
+import{j as e}from"./jsx-runtime-94f6e698.js";import{p as x}from"./styled-components.browser.esm-655d472d.js";import{I as f}from"./IconWarning-75f2a4c4.js";import{T as m}from"./Tooltip-7860af6a.js";import"./index-8db94870.js";import"./_commonjsHelpers-042e6b4d.js";import"./index-8ce4a492.js";const W={title:"PAAS/Tooltip"},g=["top","bottom","left","right"],$=["start","center","end"],j=t=>e.jsx(b,{children:g.map((i,h)=>$.map((s,l)=>e.jsx(m,{position:i,align:s,gap:10,text:l%2===0?e.jsxs("div",{style:{display:"flex",alignItems:"center",gap:4},children:[e.jsx(f,{style:{flex:"none",color:"#EE8152"},width:12,height:12}),e.jsxs("span",{style:{flex:"none"},children:[i," ",s]})]}):`${i} ${s}`,children:v[h][l]},i+s)))}),p=j.bind({}),n=88,r=32,b=x.div`
   position: relative;
   ${t=>t.theme.flexCSS.row}
   flex-wrap: wrap;
@@ -40,4 +40,4 @@ import{j as e}from"./jsx-runtime-94f6e698.js";import{p as x}from"./styled-compon
           {divs[i][j]}
         </RawTooltip>))}
   </Wrapper>`,...(d=(c=p.parameters)==null?void 0:c.docs)==null?void 0:d.source}}};const C=["Tooltip"];export{p as Tooltip,C as __namedExportsOrder,W as default};
-//# sourceMappingURL=Tooltip.stories-0398bd6d.js.map
+//# sourceMappingURL=Tooltip.stories-0ca18db6.js.map

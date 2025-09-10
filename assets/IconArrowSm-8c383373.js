@@ -1,2 +1,0 @@
-import{j as r}from"./jsx-runtime-94f6e698.js";const e=o=>r.jsx("svg",{viewBox:"0 0 16 16",fill:"none",xmlns:"http://www.w3.org/2000/svg",...o,children:r.jsx("path",{fillRule:"evenodd",clipRule:"evenodd",d:"M4.274 6.496a.556.556 0 0 1 .785 0L8 9.436l2.94-2.94a.555.555 0 1 1 .786.786L8.55 10.458a.778.778 0 0 1-1.1 0L4.274 7.282a.556.556 0 0 1 0-.786Z",fill:"currentColor"})}),c=e;try{IconArrowSm.displayName="IconArrowSm",IconArrowSm.__docgenInfo={description:"",displayName:"IconArrowSm",props:{}}}catch{}export{c as I};
-//# sourceMappingURL=IconArrowSm-8c383373.js.map

@@ -1,2 +1,0 @@
-import{j as t}from"./jsx-runtime-94f6e698.js";const i=o=>t.jsx("svg",{viewBox:"0 0 5 4",fill:"none",xmlns:"http://www.w3.org/2000/svg",...o,children:t.jsx("path",{d:"M3.34 2.562a1 1 0 0 1-1.68 0L0 0h5L3.34 2.562Z",fill:"currentColor"})}),p=i;try{TooltipPoint.displayName="TooltipPoint",TooltipPoint.__docgenInfo={description:"",displayName:"TooltipPoint",props:{}}}catch{}export{p as T};
-//# sourceMappingURL=TooltipPoint-976e1e10.js.map

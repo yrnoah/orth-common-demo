@@ -1,0 +1,2 @@
+import{a as n}from"./jsx-runtime-a888423b.js";const e=o=>n("svg",{viewBox:"0 0 12 12",fill:"none",xmlns:"http://www.w3.org/2000/svg",...o,children:n("path",{fillRule:"evenodd",clipRule:"evenodd",d:"M2.57 3.225 6 7.145l3.43-3.92 1.128.988-3.617 4.135a1.25 1.25 0 0 1-1.882 0L1.442 4.213l1.129-.988Z",fill:"currentColor"})}),l=e;try{DmIcon12Down.displayName="DmIcon12Down",DmIcon12Down.__docgenInfo={description:"",displayName:"DmIcon12Down",props:{}}}catch{}export{l as D};
+//# sourceMappingURL=DmIcon12Down-f40e2fd4.js.map

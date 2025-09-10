@@ -1,0 +1,2 @@
+import{a as o}from"./jsx-runtime-a888423b.js";const r=n=>o("svg",{viewBox:"0 0 12 12",fill:"none",xmlns:"http://www.w3.org/2000/svg",...n,children:o("path",{fillRule:"evenodd",clipRule:"evenodd",d:"M6 11A5 5 0 1 0 6 1a5 5 0 0 0 0 10Zm-.625-8v4h1.25V3h-1.25Zm0 4.75V9h1.25V7.75h-1.25Z",fill:"currentColor"})}),a=r;try{IconWarning.displayName="IconWarning",IconWarning.__docgenInfo={description:"",displayName:"IconWarning",props:{}}}catch{}export{a as I};
+//# sourceMappingURL=IconWarning-93dbea1c.js.map

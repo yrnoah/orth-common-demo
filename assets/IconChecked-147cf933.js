@@ -1,2 +1,0 @@
-import{j as o}from"./jsx-runtime-94f6e698.js";const c=e=>o.jsx("svg",{viewBox:"0 0 12 10",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e,children:o.jsx("path",{d:"m1 5 3.478 4L11 1",stroke:"currentColor",strokeWidth:1.5,strokeLinecap:"round",strokeLinejoin:"round"})}),n=c;try{IconChecked.displayName="IconChecked",IconChecked.__docgenInfo={description:"",displayName:"IconChecked",props:{}}}catch{}export{n as I};
-//# sourceMappingURL=IconChecked-147cf933.js.map

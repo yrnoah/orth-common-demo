@@ -1,0 +1,19 @@
+import{j as m}from"./jsx-runtime-94f6e698.js";import{r as t,R as p}from"./index-8db94870.js";import{f as V,p as b}from"./styled-components.browser.esm-6dd904cc.js";import{P as q,m as S}from"./Portal-01fdeda0.js";const h=200;function g({open:e,children:a,onBGClick:n,disableBG:r,portalID:l=S,duration:s=h,style:d,backgroundColor:u,backgroundStyle:o}){const i=t.useRef(null),{_open:v,enter:c,leave:f}=x(!!e,s,i.current);return!v||!a?null:m.jsx(q,{id:l,children:m.jsxs(y,{ref:i,enter:c,leave:f,duration:s,style:d,children:[!r&&m.jsx(_,{enter:c,leave:f,onClick:n,duration:s,style:o,backgroundColor:u}),k(a,{enter:c,leave:f})]})})}const k=(e,a)=>!e||!a||!p.isValidElement(e)?e:e instanceof Array?e.map(n=>p.cloneElement(n,a)):p.cloneElement(e,a);function x(e,a=h,n){const[r,l]=t.useState(e),[s,d]=t.useState(!1),[u,o]=t.useState(!1);return t.useEffect(()=>{e&&l(!0)},[e]),t.useEffect(()=>{r&&!e&&o(!0)},[e,r]),t.useEffect(()=>{r&&d(!0),r||d(!1)},[r]),t.useEffect(()=>{if(u)if(n)Promise.all(n.getAnimations({subtree:!0}).map(i=>i.finished)).then(()=>{l(!1),o(!1)});else{const i=window.setTimeout(()=>{l(!1),o(!1)},a);return()=>clearTimeout(i)}},[u,n,a]),t.useEffect(()=>()=>{o(!1),l(!1)},[]),{enter:s,leave:u,_open:r}}function E(e){return e.leave?"transparent":e.enter?e.backgroundColor||"rgba(0, 0, 0, 0.15)":"transparent"}function C(e){return e.leave?0:e.enter?1:0}const M=V`
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+`,y=b.div`
+  ${e=>e.theme.fixedFill}
+  z-index: ${e=>e.theme.zIndexes.modal};
+  ${e=>e.theme.flexCSS.column}
+  ${e=>e.theme.flexCSS.center}
+  opacity: ${e=>C(e)};
+  animation: ${e=>e.duration}ms ${M} ease;
+  transition: opacity ${e=>e.duration}ms ease;
+`,_=b.div`
+  ${e=>e.theme.absoluteFillCSS}
+  background-color: ${e=>E(e)};
+  transition: background-color ${e=>e.duration}ms ease;
+  touch-action: none;
+`;try{g.displayName="Modal",g.__docgenInfo={description:"",displayName:"Modal",props:{open:{defaultValue:null,description:"",name:"open",required:!1,type:{name:"boolean"}},children:{defaultValue:null,description:"content",name:"children",required:!1,type:{name:"ReactNode"}},onBGClick:{defaultValue:null,description:"click function on click background layer",name:"onBGClick",required:!1,type:{name:"(() => void)"}},disableBG:{defaultValue:{value:"false"},description:"cancel background layer",name:"disableBG",required:!1,type:{name:"boolean"}},portalID:{defaultValue:{value:"orthogonal-modals"},description:"which root div will be considered as modal's parent",name:"portalID",required:!1,type:{name:"string"}},duration:{defaultValue:{value:"200"},description:`display & dismiss animation duration
+@unit million seconds`,name:"duration",required:!1,type:{name:"number"}},style:{defaultValue:null,description:"",name:"style",required:!1,type:{name:"CSSProperties"}},backgroundStyle:{defaultValue:null,description:"",name:"backgroundStyle",required:!1,type:{name:"CSSProperties"}},backgroundColor:{defaultValue:null,description:"replace default bg color (rgba(0, 0, 0, 0.4))",name:"backgroundColor",required:!1,type:{name:"string"}}}}}catch{}try{y.displayName="ModalWrapper",y.__docgenInfo={description:"",displayName:"ModalWrapper",props:{theme:{defaultValue:null,description:"",name:"theme",required:!1,type:{name:"DefaultTheme"}},as:{defaultValue:null,description:"",name:"as",required:!1,type:{name:"void | WebTarget"}},forwardedAs:{defaultValue:null,description:"",name:"forwardedAs",required:!1,type:{name:"void | WebTarget"}}}}}catch{}try{_.displayName="ModalBG",_.__docgenInfo={description:"",displayName:"ModalBG",props:{theme:{defaultValue:null,description:"",name:"theme",required:!1,type:{name:"DefaultTheme"}},as:{defaultValue:null,description:"",name:"as",required:!1,type:{name:"void | WebTarget"}},forwardedAs:{defaultValue:null,description:"",name:"forwardedAs",required:!1,type:{name:"void | WebTarget"}}}}}catch{}export{g as M};
+//# sourceMappingURL=Modal-e047e149.js.map

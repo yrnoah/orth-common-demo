@@ -1,0 +1,1 @@
+import{r as n}from"./iframe-AucjWJ36.js";function o(r){const e=n.useEffectEvent(r);n.useEffect(function(){return window.addEventListener("resize",e),window.addEventListener("scroll",e),()=>{window.removeEventListener("resize",e),window.removeEventListener("scroll",e)}},[e])}export{o as u};

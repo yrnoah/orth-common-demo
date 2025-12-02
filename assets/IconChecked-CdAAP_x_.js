@@ -1,0 +1,1 @@
+import{j as o}from"./iframe-AucjWJ36.js";const n=e=>o.jsx("svg",{viewBox:"0 0 12 10",fill:"none",xmlns:"http://www.w3.org/2000/svg",...e,children:o.jsx("path",{d:"m1 5 3.478 4L11 1",stroke:"currentColor",strokeWidth:1.5,strokeLinecap:"round",strokeLinejoin:"round"})});n.__docgenInfo={description:"",methods:[],displayName:"SvgIconChecked"};export{n as S};

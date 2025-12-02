@@ -1,0 +1,1 @@
+import{R as r}from"./iframe-AucjWJ36.js";function l(n){var t=r.createContext(null);function o(e){var i=n(e.initialState);return r.createElement(t.Provider,{value:i},e.children)}function a(){var e=r.useContext(t);if(e===null)throw new Error("Component must be wrapped with <Container.Provider>");return e}return{Provider:o,useContainer:a}}export{l as c};

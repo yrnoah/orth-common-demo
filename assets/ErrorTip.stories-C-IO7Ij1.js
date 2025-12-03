@@ -1,0 +1,7 @@
+import{j as r}from"./iframe-BY0Ds_wu.js";import{E as o}from"./ErrorTip-BwmSfvSE.js";import{S as t}from"./DmIcon20ErrorRed-XMZBiEmx.js";import"./preload-helper-D9Z9MdNV.js";import"./IconWarning-C4uXhNFZ.js";const m={title:"ODE Library/Textfield/ErrorTip",tags:["autodocs"],component:o,argTypes:{icon:{description:"replace default icon, should use svg component",control:"select"},$errorColor:{control:{type:"color"}}}};function n({...s}){return r.jsxs(r.Fragment,{children:[r.jsx("label",{children:"- normal error tip"}),r.jsx(o,{...s}),r.jsx("br",{}),r.jsx("br",{}),r.jsx("label",{children:"- long message error tip"}),r.jsx(o,{message:"The next set of selectors we will look at are referred to as pseudo-classes and pseudo-elements. There are a large number of these, and they often serve quite specific purposes. Once you know how to use them, you can look at the list to see if there is something which works for the task you are trying to achieve. Once again the relevant MDN page for each selector is helpful in explaining browser support"}),r.jsx("br",{}),r.jsx("br",{}),r.jsx("label",{children:"- error tip with different icon"}),r.jsx(o,{...s,icon:r.jsx(t,{width:12,height:12,color:"red"})})]})}const e={render:n,args:{message:"Supporting text",$errorColor:"#EE8152"}};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`{
+  render: ErrorTipStory,
+  args: {
+    message: "Supporting text",
+    $errorColor: "#EE8152"
+  }
+}`,...e.parameters?.docs?.source}}};const d=["ErrorTip"];export{e as ErrorTip,d as __namedExportsOrder,m as default};

@@ -1,1 +1,0 @@
-import{j as o}from"./iframe-AucjWJ36.js";const i=t=>o.jsx("svg",{viewBox:"0 0 5 4",fill:"none",xmlns:"http://www.w3.org/2000/svg",...t,children:o.jsx("path",{d:"M3.34 2.562a1 1 0 0 1-1.68 0L0 0h5L3.34 2.562Z",fill:"currentColor"})});i.__docgenInfo={description:"",methods:[],displayName:"SvgTooltipPoint"};export{i as S};
